@@ -3,7 +3,6 @@
   
 int max (int x, int y) { return (x > y)? x : y; } 
   
-
 int lps(char *str) 
 { 
    int n = strlen(str); 
