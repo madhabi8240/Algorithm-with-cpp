@@ -21,7 +21,7 @@ int rodCutting(int n, int value[])
         
         for(j=0;j<i;j++)
         {
-            result[i]=max(result[i],value[j]+result[i-(j+1)]);
+            result[i]=rodCutting(result[i],value[j]+result[i-(j+1)]);
         }
     }
  
