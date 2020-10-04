@@ -1,2 +1,3 @@
 # Algorithm-with-cpp
-Add your codes and open a PR
+Don't spam here.
+only standard algorithms are allowed
